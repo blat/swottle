@@ -1,0 +1,12 @@
+#set :environment, :production
+set :reload, true
+
+configure do
+  Title = "Swottle"
+  SubTitle = "Sea Web Bottle"
+  Url = "http://www.swottle.net"
+end
+
+# Database
+DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/db/swottle")
+DataMapper.auto_upgrade!
