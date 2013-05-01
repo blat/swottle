@@ -30,7 +30,7 @@ Dependances
 Setup
 ------------------
 
-1.  Install Sinatra and all dependencies (see above)
+1.  Install ruby and all dependencies (see above)
 
 2.  Copy `config.rb-dist` to `config.rb` and edit it
 
@@ -38,4 +38,4 @@ Setup
 
         ruby swottle.rb
 
-4.  go to [http://localhost:4567](http://localhost:4567)
+4.  Go to [http://localhost:4567](http://localhost:4567)
