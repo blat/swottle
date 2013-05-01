@@ -1,17 +1,9 @@
-swottle
-===============
 Sea Web Bottle
+===============
 
-setup
-------------------
+This tools was based on an original idea of [taziden](http://www.flexiden.org).
 
-1.  install Sinatra and dependencies (see below)
-2.  copy **config.rb-dist** to **config.rb** and edit it
-3.  launch application: 
-        ruby swottle.rb
-4.  go to http://localhost:4567
-
-deps
+Dependances
 ------------------
 * sinatra
     * rack
@@ -34,3 +26,16 @@ deps
 * dm-timestamps
 * dm-aggregates
 * do_sqlite3
+
+Setup
+------------------
+
+1.  Install Sinatra and all dependencies (see above)
+
+2.  Copy `config.rb-dist` to `config.rb` and edit it
+
+3.  Launch application: 
+
+        ruby swottle.rb
+
+4.  go to [http://localhost:4567](http://localhost:4567)
